@@ -125,14 +125,12 @@
 
 .navbar-header {
 
-    padding-left: 0px;
-    padding-right: 0px;
-    -webkit-box-pack: none !important;
+    padding-left: 0px;“    -webkit-box-pack: none !important;
     justify-content: none !important;
 
 }
 
-button.nav-trigger {
+button.nav-trigger {‘
 
     position: relative !important;
     float: right !important;

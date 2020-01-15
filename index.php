@@ -29,6 +29,7 @@
 	
 	<div id="wrap">
 		
+		<!-- /.header -->
 		<header style="background-color: #0000ff !important;" class="main-header main-header-overlay" data-react-to-megamenu="true" data-sticky-header="true" data-sticky-options='{ "stickyTrigger": "first-section" }'>
 			
 			<div class="mainbar-wrap">
@@ -38,10 +39,10 @@
 							<div style="background-color: #0000ff !important;" class="">
 								<a class="navbar-brand" href="index.html" rel="home">
 									<span class="navbar-brand-inner">
-										<img class="logo-dark" src="./assets/img/logo/iamvocallogo.png" alt="Ave HTML Template">
-										<img class="logo-sticky" src="./assets/img/logo/iamvocallogo.png" alt="Ave HTML Template">
-										<!--<img class="mobile-logo-default" src="./assets/img/logo/iamvocallogo.png" alt="Ave HTML Template">-->
-										<img class="logo-default" src="./assets/img/logo/iamvocallogo.png" alt="Ave HTML Template">
+										<img class="logo-dark" src="./assets/img/logo/iamvocallogo.png" alt="LOGO">
+										<img class="logo-sticky" src="./assets/img/logo/iamvocallogo.png" alt="LOGO">
+										<!--<img class="mobile-logo-default" src="./assets/img/logo/iamvocallogo.png" alt="LOGO">-->
+										<img class="logo-default" src="./assets/img/logo/iamvocallogo.png" alt="LOGO">
 									</span>
 								</a>
 
@@ -54,13 +55,14 @@
 										<span  class="bar"></span>
 									</span>
 								</button>
-							</div><!-- /.navbar-header -->
+							</div>
 						</div>
+						<!-- /.navbar -->
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
 							<div class="col text-right">
-								<div class="collapse navbar-collapse navbar-visible-ontoggle collapsed" id="main-header-collapse" aria-expanded="false" role="tablist">
-									
-									<ul class="main-nav main-nav-hover-underline-2 nav align-items-lg-stretch justify-content-lg-end" data-submenu-options='{"toggleType":"fade","handler":"mouse-in-out"}'>
+								<div class="collapse navbar-collapse navbar-visible-ontoggle collapsed" id="main-header-c
+									<ul class="main-nav main-nav-hover-underline-2 nav align-items-lg-stretch justify-content-lg-end" data-submenu-options='ollapse" aria-expanded="false" role="tablist">
+									{"toggleType":"fade","handler":"mouse-in-out"}'>
 										<li style="right: 50px !important;" class="current-menu-item">
 											<a href="index.php">
 												<span class="link-icon"></span>
@@ -117,11 +119,8 @@
 										</li>
 									</ul>
 
-								</div><!-- /.collapse -->
-
+								</div>
 								<div class="header-module">
-									
-
 									<button style="bottom: 30px !important; " class="nav-trigger collapsed style-1 fill-solid scheme-light txt-left main-nav-trigger" role="button"
 										type="button" data-toggle="collapse" data-target="#main-header-collapse" aria-expanded="false" aria-controls="main-header-collapse"
 										data-changeclassnames='{ "html": "overflow-hidden" }'>
@@ -170,7 +169,6 @@
 									<div class="container-fluid nopadding">
 										<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
 											<img src="assets/img/icon/camera.png">
-											<!--<p><input placeholder="image name" oninput="this.className = ''"></p>-->
 										</div>
 										<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
 											<div style="margin-top: 20px !important;" class="">
