@@ -211,7 +211,16 @@ input.invalid {
 	border: 0px !important;
 	background-color: #0000ff;
 	width: 100%;
-	padding-top: 100px !important;
+	padding-top: 50px !important;
+	text-align: right;
+}
+
+.prevbutton {
+	text-align: : left !important;
+	border: 0px !important;
+	background-color: #0000ff;
+	width: 100%;
+	padding-top: 50px !important;
 }
 
 .fullheight {

@@ -164,21 +164,87 @@
 						</form>
 
 						
-						<form id="regForm" action="#">
-							<div id="question2"  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 questions">
-								
+						<div id="question2"  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 questions">
+							<form id="regForm" action="#">
 								<div  style="margin-top: 100px !important;" class="tab lqd-column text-center text-md-center" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","startDelay":"1500","delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"scaleX":0.25,"scaleY":0.25,"opacity":0},"animations":{"scaleX":1,"scaleY":1,"opacity":1}}'>
-									<img src="assets/img/icon/camera.png">
-									<div style="margin-top: 20px !important;" class="">
-										<img src="assets/img/icon/selectfile.png">
+									<div class="container-fluid nopadding">
+										<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
+											<img src="assets/img/icon/camera.png">
+											<!--<p><input placeholder="image name" oninput="this.className = ''"></p>-->
+										</div>
+										<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
+											<div style="margin-top: 20px !important;" class="">
+												<button type="button" style="border: 0px !important; background-color: #0000ff !important;" class="nopadding " onclick="nextPrevv(1)"><img src="assets/img/icon/selectfile.png"></button>
+											</div>
+										</div>
 									</div>
-									
 								</div>
+
+								<div  style="margin-top: 100px !important;" class="tab lqd-column text-center text-md-center" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","startDelay":"1500","delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"scaleX":0.25,"scaleY":0.25,"opacity":0},"animations":{"scaleX":1,"scaleY":1,"opacity":1}}'>
+									<div class="container-fluid">
+										<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
+											<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+												<img src="assets/img/icon/cameraupload.png">
+												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
+													<div style="margin-top: 10px !important;" class="">
+														<img src="assets/img/icon/selectfile.png">
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+												<img src="assets/img/icon/folder.png">
+												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
+													<div style="margin-top: 10px !important;" class="">
+														<img src="assets/img/icon/selectfile.png">
+													</div>
+												</div>
+											</div>
+											
+										</div>
+									</div>
+
+									
+									 <!--<p><input placeholder="E-mail..." oninput="this.className = ''"></p>
+							  		<p><input placeholder="Phone..." oninput="this.className = ''"></p>-->
+								</div>
+
+								<div style="overflow:auto;">
+								  	<div class="container-fluid nopadding">
+								  		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-50 nopadding">
+								  			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+								  				<button type="button"  class="prevbutton" id="prevBtn" onclick="nextPrevv(-1)"><img src="assets/img/icon/prev.png"></button>
+								  			</div>
+								  			<div></div>
+								  			<!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 nopadding">
+								  				 <button type="button" class="nopadding nextbutton" onclick="nextPrevv(1)"><img src="assets/img/icon/next.png"></button>
+								  			</div>-->
+								  		</div>
+								  </div>
+								</div>
+								<!-- Circles which indicates the steps of the form: -->
+								<div style="text-align:center;margin-top:40px;">
+								  <span class="step"></span>
+								  <span class="step"></span>
+								  <span class="step"></span>
+								  <span class="step"></span>
+								</div>
+							</form>
+						</div>
+
+
+						
+
+
+
+						<div id="question2"  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 questions">
+							<form id="regForm" action="#">
 								<div class="tab lqd-column text-center text-md-center" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","startDelay":"1500","delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"scaleX":0.25,"scaleY":0.25,"opacity":0},"animations":{"scaleX":1,"scaleY":1,"opacity":1}}'>
 									<img src="assets/img/icon/voiceslogo1.png">
 									 <p><input placeholder="E-mail..." oninput="this.className = ''"></p>
 							  		<p><input placeholder="Phone..." oninput="this.className = ''"></p>
 								</div>
+
+
 								<div class="tab lqd-column text-center text-md-center" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","startDelay":"1500","delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"scaleX":0.25,"scaleY":0.25,"opacity":0},"animations":{"scaleX":1,"scaleY":1,"opacity":1}}'>
 									<img src="assets/img/icon/voiceslogo1.png">
 									  <p><input placeholder="dd" oninput="this.className = ''"></p>
@@ -197,18 +263,17 @@
 							  		  <p><input placeholder="Password..." oninput="this.className = ''"></p>
 								</div>
 								<div style="overflow:auto;">
-								  <div style="float:right;">
 								  	<div class="container-fluid nopadding">
 								  		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
 								  			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-								  				<button type="button" class="prevbutton" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+								  				<button type="button" class="prevbutton" id="prevBtn" onclick="nextPrev(-1)"><img src="assets/img/icon/prev.png"></button>
 								  			</div>
 								  			<div></div>
-								  			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 nopadding">
+								  			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
 								  				 <button type="button" class="nopadding nextbutton" onclick="nextPrev(1)"><img src="assets/img/icon/next.png"></button>
 								  			</div>
 								  		</div>
-								  	</div>
+								  	
 								  </div>
 								</div>
 								<!-- Circles which indicates the steps of the form: -->
@@ -218,9 +283,8 @@
 								  <span class="step"></span>
 								  <span class="step"></span>
 								</div>
-
-							</div>
-						</form>
+							</form>
+						</div>
 
 						
 					</div><!-- /.row -->
@@ -308,6 +372,26 @@ function showTab(n) {
   // ... and run a function that displays the correct step indicator:
   fixStepIndicator(n)
 }
+
+function nextPrevv(n) {
+  // This function will figure out which tab to display
+  var x = document.getElementsByClassName("tab");
+  // Exit the function if any field in the current tab is invalid:
+  if (n == 1 && !validateForm()) return false;
+  // Hide the current tab:
+  x[currentTab].style.display = "none";
+  // Increase or decrease the current tab by 1:
+  currentTab = currentTab + n;
+  // if you have reached the end of the form... :
+  if (currentTab >= x.length) {
+    //...the form gets submitted:
+    document.getElementById("regForm").submit();
+    return false;
+  }
+  // Otherwise, display the correct tab:
+  showTab(currentTab);
+}
+
 
 function nextPrev(n) {
   // This function will figure out which tab to display
